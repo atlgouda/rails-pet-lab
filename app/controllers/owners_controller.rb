@@ -1,5 +1,9 @@
 class OwnersController < ApplicationController
 
+#   validates :name, presence: true
+# end
+
+
   def index
     @owners = Owner.all
   end
